@@ -105,3 +105,14 @@
  .thirdpagecon p{
     padding-top: 5%;
  }
+
+
+ .thirdpageseccon p{
+    font-size: 20px;
+    padding: 5px;
+ }
+
+ .thirdpageseccon span{
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.916)
+ }
