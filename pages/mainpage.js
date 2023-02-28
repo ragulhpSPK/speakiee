@@ -8,7 +8,6 @@ function Mainpage() {
     <div className={styles.container}>
         <div className={styles.content}>
         <p>{Mainpagecontent.map(data => { return data.content}) }</p>
-        h1
         <Image src='/assets/images/worldweb.png' height={400} width={700} alt="no image"/>
         </div>
     </div>
