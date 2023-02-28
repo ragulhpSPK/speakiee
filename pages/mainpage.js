@@ -1,5 +1,5 @@
 import React from 'react'
-import { Mainpagecontent } from './contentPage'
+import  Mainpagecontent  from './contentPage'
 import Image from 'next/image'
 import styles from '../styles/mainpage.module.css'
 
