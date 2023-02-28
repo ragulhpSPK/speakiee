@@ -1,4 +1,4 @@
- const Mainpagecontent=[
+export const Mainpagecontent=[
     {
         'id':1,
         'Heading':"",
@@ -6,4 +6,4 @@
     }
 ]
 
-export default Mainpagecontent;
+  
