@@ -109,10 +109,11 @@
 
  .thirdpageseccon p{
     font-size: 20px;
-    padding: 5px;
+    padding: 15px;
  }
 
  .thirdpageseccon span{
     font-size: 100px;
-    color: rgba(0, 0, 0, 0.916)
+    color: rgba(0, 0, 0, 0.916);
+    padding-left: 15px;
  }

@@ -71,7 +71,7 @@ function Infopage() {
 
                 <div className={styles.thirdpageseccon}>
                     <span>9/10</span>
-                    <p>internet users will be
+                    <p>Internet users will be
                         native language users, with rural India leading the way in
                         digital adoption.</p>
                 </div>
