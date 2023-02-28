@@ -1,6 +1,6 @@
 .container{
     min-height: 25vh;
-    background-color: rgba(0, 0, 0, 0.916);
+    background-color: var(--black-bg-color);
     position: relative;
     z-index: 999;
 }

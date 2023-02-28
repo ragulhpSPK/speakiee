@@ -1,12 +1,10 @@
 import React from 'react'
 import styles from '../styles/navbar.module.css'
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import Link from 'next/link'
+
 
 function Navbar() {
-
-    const [service, setService] = useState(false)
-
 
 
 
@@ -69,7 +67,7 @@ function Navbar() {
             <li><a>join Us / careers</a></li>
             <li><a>Our Block</a></li>
             <li><a>Partners</a></li>
-            <li><a>Contact</a></li>
+            <li><a href='contact'>Contact</a></li>
           </ul>
         </div>
         <div className="navbar-end"></div>

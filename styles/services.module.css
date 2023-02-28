@@ -1,0 +1,62 @@
+.container{
+    min-height: 200vh;
+    position: relative;
+    width: 70vw;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.container>h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.firststyle,.secondstyle{
+  display: flex;  
+  justify-content: space-between;
+  height: 35vh;
+  margin-top: 5%;
+}
+
+.firststylecontent,.secondstylecontent {
+    width: 30vw;
+}
+
+.firststyle h1{
+    font-size: 50px;
+    padding-left: 5%;
+}
+
+.firststylecontent p{
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.firststyleborder{
+    border-left: 5px solid var(--black-bg-color);
+    width: 5vw;
+    height: 30vh;
+}
+
+
+.secondstyle{
+    background-color: var(--background-bg-color);
+}
+
+.secondstyle h1{
+    font-size: 50px;
+}
+
+.secondstylecontent p{
+    font-size: 20px;
+    padding-right: 5%;
+}
+
+.secondstyleborder{
+    border-left: 5px solid var(--container-bg-color);
+    width: 5vw;
+    height: 30vh;
+    margin-top: 20px;
+}

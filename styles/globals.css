@@ -44,6 +44,8 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
   --container-bg-color: #ff4f00;
+  --black-bg-color: rgba(0, 0, 0, 0.916);
+  --background-bg-color:  #E4C988;
 }
 
 @media (prefers-color-scheme: dark) {

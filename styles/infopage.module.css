@@ -73,7 +73,7 @@
  .secondpagecon span{
     color: var(--container-bg-color);
     font-size: 50px;
-    font-weight: 600;
+    font-weight: lighter;
     margin: 0 auto ;
     text-align: center;
  }
