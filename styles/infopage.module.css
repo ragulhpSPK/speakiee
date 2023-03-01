@@ -1,120 +1,130 @@
 .container {
-    min-height: 100vh;
-    background-color: white;
-    position: relative;
-    margin-top: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  min-height: 100vh;
+  background-color: white;
+  position: relative;
+  margin-top: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .firstpageinfo {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    background-color: #E4C988;
-    min-height: 25%;
-    text-align: center;
-    width: 70vw;
-    column-gap: normal;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  background-color: #e4c988;
+  min-height: 25%;
+  text-align: center;
+  width: 70vw;
+  column-gap: normal;
 }
 
-
-.heading h1{
-    font-size:32px;
-    padding: 18%;
-    color: var(--container-bg-color);
-    font-weight: 600;
-    
+.heading h1 {
+  font-size: 32px;
+  padding: 18%;
+  color: var(--container-bg-color);
+  font-weight: 600;
 }
 
-.border{
-    margin: auto 0;
-    text-align: center;
-    display: block;
-   align-self: center;
+.border {
+  margin: auto 0;
+  text-align: center;
+  display: block;
+  align-self: center;
 }
 
-.border span{
-    border-left:5px solid var(--container-bg-color);
-    padding: 60px;
+.border span {
+  border-left: 5px solid var(--container-bg-color);
+  padding: 60px;
 }
 
-.active,.service,.team{
-    font-size: 25px;
-    padding-top: 5%;
+.active,
+.service,
+.team {
+  font-size: 25px;
+  padding-top: 5%;
 }
 
-.active span,.service span,.team span{
-    font-size: 50px;
+.active span,
+.service span,
+.team span {
+  font-size: 50px;
 }
 
-.secondpageinfo{
-    display: grid;
-    width: 70vw;
-    min-height: 30vh;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.secondpageinfo {
+  display: grid;
+  width: 70vw;
+  min-height: 30vh;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.secondpageinfoheading h1{
-    font-size: 50px;
-    margin-top: 6%;
+.secondpageinfoheading h1 {
+  font-size: 50px;
+  margin-top: 6%;
 }
 
- .secondborder{ 
-    border-left: 1px solid grey;
-    margin-left: 90px;
-    padding: -20px;
- }
+.secondborder {
+  border-left: 1px solid grey;
+  margin-left: 90px;
+  padding: -20px;
+}
 
- .secondpagecon{
-    text-align: center;
-    color: inherit;
- }
+.secondpagecon {
+  text-align: center;
+  color: inherit;
+}
 
- .secondpagecon span{
-    color: var(--container-bg-color);
-    font-size: 50px;
-    font-weight: lighter;
-    margin: 0 auto ;
-    text-align: center;
- }
+.secondpagecon span {
+  color: var(--container-bg-color);
+  font-size: 50px;
+  font-weight: lighter;
+  margin: 0 auto;
+  text-align: center;
+}
 
- .secondpagecon p{
-    font-size: 20px;
- }
+.secondpagecon p {
+  font-size: 20px;
+}
 
- .thirdpageinfo{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(35vw, 1fr));
-    width: 70vw;
-    min-height: 30vh;
-    margin: 5%;
- }
+.thirdpageinfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35vw, 1fr));
+  width: 70vw;
+  min-height: 30vh;
+  margin: 5%;
+}
 
- .thirdpagecon{
-    width: 35vw;
-    background-color: rgba(0, 0, 0, 0.916);
-    color: var(--container-bg-color);
-    font-size: 50px;
- }
+.thirdpagecon {
+  width: 35vw;
+  background-color: var(--black-bg-color);
+  color: var(--container-bg-color);
+  font-size: 50px;
+}
 
- .thirdpageseccon{
-    width: 35vw;
-    background-color: var(--container-bg-color);
- }
+.thirdpageseccon {
+  width: 35vw;
+  background-color: var(--container-bg-color);
+}
 
- .thirdpagecon p{
-    padding-top: 5%;
- }
+.thirdpagecon p {
+  padding-top: 5%;
+}
 
+.thirdpageseccon p {
+  font-size: 20px;
+  padding: 15px;
+}
 
- .thirdpageseccon p{
-    font-size: 20px;
-    padding: 15px;
- }
+.thirdpageseccon span {
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0.916);
+  padding-left: 15px;
+}
 
- .thirdpageseccon span{
-    font-size: 100px;
-    color: rgba(0, 0, 0, 0.916);
-    padding-left: 15px;
- }
+#img {
+  overflow: hidden;
+}
+
+#img:hover {
+  transform: scale(0.9);
+  transition: 2s;
+}

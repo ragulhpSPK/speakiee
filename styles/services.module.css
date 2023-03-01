@@ -60,3 +60,11 @@
     height: 30vh;
     margin-top: 20px;
 }
+
+.firststyle a,.secondstyle a{
+    text-decoration: underline;
+}
+
+.findmore{
+    margin-top: 5%;
+}

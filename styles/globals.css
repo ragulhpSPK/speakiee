@@ -1,14 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "animate.css";
 
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -44,8 +44,9 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
   --container-bg-color: #ff4f00;
-  --black-bg-color: rgba(0, 0, 0, 0.916);
-  --background-bg-color:  #E4C988;
+  --black-bg-color: rgba(0, 0, 0, 0.905);
+  /* --black2-bg-color: rgba(0, 0, 0, 0.916); */
+  --background-bg-color: #e4c988;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -101,8 +102,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    scroll-behavior: smooth !important;
-    background-color: #fff;
+  scroll-behavior: smooth !important;
+  background-color: #fff;
 }
 
 a {
@@ -110,6 +111,9 @@ a {
   text-decoration: none;
 }
 
+.ant-menu-submenu-title {
+  padding-left: 2px !important;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
