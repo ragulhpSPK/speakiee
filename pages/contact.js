@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/contact.module.css'
-import Basicschema from './validation'
+import Basicschema from '../helper/validation'
 import { Formik, useFormik } from 'formik'
 
 function Contact() {
