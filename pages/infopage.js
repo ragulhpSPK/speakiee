@@ -88,10 +88,9 @@ function Infopage() {
             id={styles.img}
           />
           <span>
-            {" "}
             {Infopagecontent.map((res) => {
               return res.large4;
-            })}{" "}
+            })}
           </span>
           <p>
             {" "}

@@ -58,3 +58,35 @@
 .arrow {
   color: var(--container-bg-color);
 }
+
+@media screen and (max-width: 768px) {
+  .content .service,
+  .careers,
+  .contact,
+  .headoffice,
+  .located {
+    border-right: none;
+    border-bottom: 3px solid grey;
+  }
+  .copyrights {
+    width: 100vw;
+  }
+
+  .copyrights span {
+    width: 50vw;
+    font-size: 12px;
+  }
+
+  .copyrights p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .headoffice {
+    border-right: 3px solid grey;
+  }
+  .contact {
+    border: none;
+  }
+}

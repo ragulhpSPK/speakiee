@@ -26,6 +26,7 @@ function Frontend() {
             alt="no image to display"
             width={500}
             height={400}
+            className={styles.img}
           />
         </div>
       </div>
@@ -36,47 +37,39 @@ function Frontend() {
             src="/assets/images/front.png"
             alt="no image to display"
             width={300}
-            height={100}
+            height={300}
+            className={styles.img}
           />
         </div>
 
         <div className={styles.frontend_secondpage_content}>
-          <h1>
-            {Findmorecontentpage.map((res) => {
-              return res.Heading1;
-            })}
-          </h1>
           <p>
             {Findmorecontentpage.map((res) => {
-              return res.content1;
+              return res.content2;
             })}
           </p>
         </div>
       </div>
 
       <div className={styles.frontend_thirdpage}>
-        <div
-          className={styles.frontend_secondpage_content}
-          id={styles.thirdcontent}
-        >
-          <h1>
-            {Findmorecontentpage.map((res) => {
-              return res.Heading1;
-            })}
-          </h1>
-          <p>
-            {Findmorecontentpage.map((res) => {
-              return res.content1;
-            })}
-          </p>
-        </div>
         <div className={styles.frontend_second_img} id={styles.thirdimg}>
           <Image
             src="/assets/images/front.png"
             alt="no image to display"
             width={300}
-            height={100}
+            height={300}
+            className={styles.img}
           />
+        </div>
+        <div
+          className={styles.frontend_secondpage_content}
+          id={styles.thirdcontent}
+        >
+          <p>
+            {Findmorecontentpage.map((res) => {
+              return res.content3;
+            })}
+          </p>
         </div>
       </div>
 
@@ -87,6 +80,7 @@ function Frontend() {
             alt="no image to display"
             width={300}
             height={100}
+            className={styles.img}
           />
         </div>
 
@@ -94,22 +88,38 @@ function Frontend() {
           className={styles.frontend_secondpage_content}
           id={styles.fourcontent}
         >
-          <h1>
-            {Findmorecontentpage.map((res) => {
-              return res.Heading1;
-            })}
-          </h1>
           <p>
             {Findmorecontentpage.map((res) => {
-              return res.content1;
+              return res.content4;
             })}
           </p>
         </div>
       </div>
 
-      <div>
-        <div>
-          
+
+      <div className={styles.second_containr}>
+        <div className={styles.secondcon_firstcontent}>
+          <div>
+            <Image
+              src="/assets/images/content.png"
+              width={300}
+              height={400}
+              alt="no image to display"
+            />
+          </div>
+          <div>
+            <h1>
+              {Findmorecontentpage.map((res) => {
+                return res.Heading5;
+              })}
+            </h1>
+            <p>
+              {" "}
+              {Findmorecontentpage.map((res) => {
+                return res.content5;
+              })}
+            </p>
+          </div>
         </div>
       </div>
     </div>

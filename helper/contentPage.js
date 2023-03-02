@@ -131,4 +131,29 @@ export const Findmorecontentpage = [
     content1:
       "Image result for front end developerWhat a Front End Developer Does: An Overview. A front end developer has one general responsibility: to ensure that website visitors can easily interact with the page. They do this through the combination of design, technology and programming to code a website's appearance, as well as taking care of debugging.",
   },
+  {
+    id: 2,
+    Heading2: "",
+    content2:
+      "Image result for front end developerWhat a Front End Developer Does: An Overview. A front end developer has one general responsibility: to ensure that website visitors can easily interact with the page. They do this through the combination of design, technology and programming to code a website's appearance, as well as taking care of debugging.",
+  },
+  {
+    id: 3,
+    Heading3: "",
+    content3:
+      "Image result for front end developerWhat a Front End Developer Does: An Overview. A front end developer has one general responsibility: to ensure that website visitors can easily interact with the page. They do this through the combination of design, technology and programming to code a website's appearance, as well as taking care of debugging.",
+  },
+  {
+    id: 4,
+    Heading4: "",
+    content4:
+      "Image result for front end developerWhat a Front End Developer Does: An Overview. A front end developer has one general responsibility: to ensure that website visitors can easily interact with the page. They do this through the combination of design, technology and programming to code a website's appearance, as well as taking care of debugging.",
+  },
+
+  {
+    id: 5,
+    Heading5: "Backend developer",
+    content5:
+      "Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.",
+  },
 ];

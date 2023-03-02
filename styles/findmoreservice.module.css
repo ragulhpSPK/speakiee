@@ -12,8 +12,9 @@
 }
 
 .frontend_firstpage_content {
-  width: 30vw;
+  width: 50vw;
   font-size: 20px;
+  border-radius: 5px;
 }
 
 .frontend_firstpage_content h1 {
@@ -25,7 +26,7 @@
   border-left: 5px solid var(--container-bg-color);
   width: 10vw;
   margin-left: 10%;
-  height: 280px;
+  min-height: 280px;
 }
 
 .frontend_firstpage_img {
@@ -36,14 +37,13 @@
   display: flex;
   width: 85vw;
   margin: auto;
-  height: 35vh;
+  min-height: 35vh;
   margin-top: 5%;
   margin-right: 5%;
-  /* background-color: var(--container-bg-color); */
 }
 
 .frontend_second_img {
-  width: 35vw;
+  width: 30vw;
   background-color: #fff;
 }
 .frontend_secondpage h1 {
@@ -52,17 +52,18 @@
 }
 
 .frontend_secondpage_content {
-  width: 35vw;
+  width: 60vw;
   font-size: 20px;
   background-color: var(--background-bg-color);
   padding: 3%;
+  border-radius: 5px;
 }
 
 .frontend_thirdpage {
   display: flex;
   width: 85vw;
   margin: auto;
-  height: 35vh;
+  min-height: 35vh;
   margin-right: 5%;
 }
 
@@ -72,12 +73,14 @@
 }
 
 #thirdimg {
-  background-color: #fff;
   padding-left: 5%;
+  background-color: var(--container-bg-color);
 }
 
 #thirdcontent {
-  background-color: var(--container-bg-color);
+  background-color: #fff;
+  border-radius: 5px;
+
   /* background-color: rgba(171, 159, 159, 0.245); */
 }
 
@@ -87,4 +90,66 @@
 
 #fourcontent {
   background-color: var(--background-bg-color);
+  border-radius: 5px;
+}
+
+.second_containr {
+  height: 180vh;
+  margin-top: 5%;
+}
+
+.secondcon_firstcontent {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .frontend_firstpage,
+  .frontend_secondpage,
+  .frontend_thirdpage {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    border-bottom: 3px solid grey;
+  }
+  .frontend_firstpage_content h1 {
+    font-size: 25px;
+  }
+
+  .frontend_firstpage_content,
+  .frontend_secondpage_content,
+  #thirdcontent {
+    width: 90vw;
+    font-size: 15px;
+  }
+  .border {
+    border: none;
+    margin-top: -60%;
+    width: 70vw;
+  }
+
+  .frontend_firstpage_img {
+    margin-top: 30%;
+  }
+
+  .frontend_thirdpage {
+    width: 90vw;
+  }
+
+  #thirdcontent {
+    background-color: var(--container-bg-color);
+  }
+  #thirdimg {
+    background-color: #fff;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .frontend_container {
+    font-size: 18px;
+  }
+  .frontend_firstpage {
+    min-height: 50vh;
+  }
 }
