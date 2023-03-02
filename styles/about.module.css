@@ -55,3 +55,33 @@
   padding: 5%;
   font-size: 20px;
 }
+
+.third_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  font-size: 18px;
+  margin-top: 5%;
+  text-align: justify;
+}
+
+.third_content_first {
+  width: 35vw;
+  background-color: var(--background-bg-color);
+  height: 30vh;
+  padding: 10px 8px 0 10px;
+}
+
+.third_content_first h1 {
+  font-size: 50px;
+  color: var(--container-bg-color);
+}
+
+.third_content_second {
+  width: 35vw;
+  background-color: var(--container-bg-color);
+  height: 30vh;
+  padding: 15px 8px 0 10px;
+}

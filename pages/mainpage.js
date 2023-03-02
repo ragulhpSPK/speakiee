@@ -13,11 +13,12 @@ function Mainpage() {
           })}
         </p>
         <Image
-          src="/assets/images/worldweb.png"
-          height={400}
-          width={700}
+          src="/assets/images/dummy2.png"
+          height={900}
+          width={1300}
           alt="no image"
-          className="animate__animated animate__flipInX  animate__slow	1s"
+          className="animate__animated animate__bounceIn  animate__slow	1s"
+          id={styles.img}
         />
       </div>
     </div>

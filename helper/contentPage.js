@@ -3,7 +3,7 @@ export const Mainpagecontent = [
     id: 1,
     Heading: "",
     content:
-      "Speakiee uses technology to provide quick scaling, optimal resource use, and access to analytics and insights to support data-driven choices. We can employ the client's tools, or any third-party tools depending on the client's needs and goals.We charge an hourly rate and determine a per-file or per-annotation pricing depending on the average time it takes to complete them. We do not charge extra or hidden costs for quality control, project management, or tool use.",
+      "Speakiee uses technology to provide quick scaling, optimal resource use, and access to analytics and insights to support data-driven choices. We can employ the client's tools, or any third-party tools depending on the client's needs and goals.",
   },
 ];
 
@@ -69,7 +69,7 @@ export const Servicecontentpage = [
   },
   {
     id: 2,
-    Heading2: "Translation Services",
+    Heading2: "Frontend Developer",
     content2:
       "A better way to engage your domestic & global customers starts with a better translation process",
     findmore: "Find out more about our",
@@ -77,26 +77,26 @@ export const Servicecontentpage = [
 
   {
     id: 3,
-    Heading3: "Transcretion Services",
+    Heading3: "Backend developer",
     content3:
       " Content adaptation from one language to another while maintaining its style, intent, context and tone",
     findmore3: "Find out more about our",
   },
   {
     id: 4,
-    Heading4: "Content- Copywriting Services",
+    Heading4: "Full stact developer",
     content4: "Copywriting services in various languages",
     findmore4: "Find out more about our",
   },
   {
     id: 5,
-    Heading5: "Cultural Consultancy Services",
+    Heading5: "Mobile App developer",
     content5: "Culture: An unspoken yet a powerful force/tool",
     findmore5: "Find out more about our",
   },
   {
     id: 6,
-    Heading6: "Content Production Services",
+    Heading6: "Ios developer",
     content6:
       "  Content production services viz. Subtitling, Captioning, Video editing, VO services",
     findmore6: "Find out more about our",
@@ -115,5 +115,20 @@ export const Aboutpagecontent = [
     Heading2: "Speakiee Corporation",
     content2:
       "  With more than 196,000 exceptional people in over 50 centers, weapply intelligence, innovation and deep industry experience,together with New IT and new skills to drive business value andgrowth. Learn more about our services.",
+  },
+  {
+    id: 3,
+    Heading3: "Speakiee groups",
+    content3:
+      "Outsourcing does involve processing repetitive tasks that burden  to creativity. In fact, what separates us from other companies is the detailed planning and research we put into each outsourced project. Guided by our world-class standards, we professionally consider each project and work on it with passion and industry-specific skill. Our brand of outsourcing is creative.",
+  },
+];
+
+export const Findmorecontentpage = [
+  {
+    id: 1,
+    Heading1: "Frontend developer",
+    content1:
+      "Image result for front end developerWhat a Front End Developer Does: An Overview. A front end developer has one general responsibility: to ensure that website visitors can easily interact with the page. They do this through the combination of design, technology and programming to code a website's appearance, as well as taking care of debugging.",
   },
 ];

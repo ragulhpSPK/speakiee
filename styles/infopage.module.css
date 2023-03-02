@@ -6,16 +6,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: speakieeboldregular;
 }
 
 .firstpageinfo {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  background-color: #e4c988;
+  background-color: var(--background-bg-color);
   min-height: 25%;
   text-align: center;
   width: 70vw;
   column-gap: normal;
+  border-radius: 5px;
 }
 
 .heading h1 {
@@ -26,15 +28,9 @@
 }
 
 .border {
-  margin: auto 0;
-  text-align: center;
-  display: block;
-  align-self: center;
-}
-
-.border span {
   border-left: 5px solid var(--container-bg-color);
-  padding: 60px;
+  height: 60%;
+  margin: 10%;
 }
 
 .active,
@@ -94,15 +90,18 @@
 }
 
 .thirdpagecon {
-  width: 35vw;
+  min-width: 35vw;
   background-color: var(--black-bg-color);
   color: var(--container-bg-color);
   font-size: 50px;
+  border-radius: 5px;
+  padding-left: 5%;
 }
 
 .thirdpageseccon {
-  width: 35vw;
+  min-width: 35vw;
   background-color: var(--container-bg-color);
+  border-radius: 5px;
 }
 
 .thirdpagecon p {
@@ -127,4 +126,20 @@
 #img:hover {
   transform: scale(0.9);
   transition: 2s;
+}
+
+@media screen and (max-width: 768px) {
+  .border {
+    border-left: none;
+    border-bottom: 5px solid var(--container-bg-color);
+    margin-top: -10%;
+  }
+  .thirdpageinfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thirdpageseccon {
+    margin: 5px;
+  }
 }

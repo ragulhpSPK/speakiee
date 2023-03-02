@@ -43,6 +43,28 @@ export default function about() {
           </p>
         </div>
       </div>
+
+      <div className={styles.third_content}>
+        <div className={styles.third_content_first}>
+          <h1>
+            {Aboutpagecontent.map((res) => {
+              return res.Heading3;
+            })}
+          </h1>
+          <p>
+            {Aboutpagecontent.map((res) => {
+              return res.content3;
+            })}
+          </p>
+        </div>
+        <div className={styles.third_content_second}>
+          <p>
+            {Aboutpagecontent.map((res) => {
+              return res.content3;
+            })}
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

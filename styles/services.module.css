@@ -1,70 +1,98 @@
-.container{
-    min-height: 200vh;
-    position: relative;
-    width: 70vw;
-    margin: 0 auto;
-    background-color: #fff;
+.container {
+  min-height: 200vh;
+  position: relative;
+  width: 70vw;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: speakieeboldregular;
 }
 
-.container>h1{
-    text-align: center;
-    font-size: 50px;
+.container > h1 {
+  text-align: center;
+  font-size: 50px;
 }
 
-
-
-.firststyle,.secondstyle{
-  display: flex;  
+.firststyle {
+  display: flex;
   justify-content: space-between;
-  height: 35vh;
+  min-height: 35vh;
   margin-top: 5%;
 }
 
-.firststylecontent,.secondstylecontent {
-    width: 30vw;
+.secondstyle {
+  display: flex;
+  justify-content: space-between;
+  min-height: 35vh;
+  margin-top: 5%;
 }
 
-.firststyle h1{
-    font-size: 50px;
-    padding-left: 5%;
+.firststylecontent {
+  min-width: 30vw;
 }
 
-.firststylecontent p{
-    font-size: 20px;
-    padding-left: 5%;
+.secondstylecontent {
+  min-width: 30vw;
 }
 
-.firststyleborder{
-    border-left: 5px solid var(--black-bg-color);
-    width: 5vw;
-    height: 30vh;
+.firststyle h1 {
+  font-size: 50px;
+  padding-left: 5%;
 }
 
-
-.secondstyle{
-    background-color: var(--background-bg-color);
+.firststylecontent p {
+  font-size: 20px;
+  padding-left: 5%;
 }
 
-.secondstyle h1{
-    font-size: 50px;
+.firststyleborder {
+  border-left: 5px solid var(--black-bg-color);
+  width: 5vw;
+  height: 30vh;
 }
 
-.secondstylecontent p{
-    font-size: 20px;
-    padding-right: 5%;
+.secondstyle {
+  background-color: var(--background-bg-color);
 }
 
-.secondstyleborder{
-    border-left: 5px solid var(--container-bg-color);
-    width: 5vw;
-    height: 30vh;
-    margin-top: 20px;
+.secondstyle h1 {
+  font-size: 50px;
 }
 
-.firststyle a,.secondstyle a{
-    text-decoration: underline;
+.secondstylecontent p {
+  font-size: 20px;
+  padding-right: 5%;
 }
 
-.findmore{
+.secondstyleborder {
+  border-left: 5px solid var(--container-bg-color);
+  width: 5vw;
+  height: 30vh;
+  margin-top: 20px;
+}
+
+.firststyle a,
+.secondstyle a {
+  text-decoration: underline;
+}
+
+.findmore {
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .firststyle,
+  .secondstyle {
+    display: flex;
+    flex-direction: column;
     margin-top: 5%;
+  }
+
+  .firststyleborder,
+  .secondstyleborder {
+    border-left: none;
+    /* border-bottom: 5px solid var(--black-bg-color); */
+    width: 55vw;
+    height: 30vh;
+    margin-top: -160px;
+  }
 }

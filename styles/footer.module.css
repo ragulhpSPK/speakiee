@@ -2,6 +2,7 @@
   min-height: 25vh;
   background-color: var(--black-bg-color);
   position: relative;
+  font-family: speakiebold;
 }
 
 .content {
@@ -19,7 +20,7 @@
 }
 
 .content div h1 {
-  font-size: 25px;
+  font-size: 30px;
   color: var(--container-bg-color);
   font-weight: 500;
   padding-top: 10px;

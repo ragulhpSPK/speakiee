@@ -3,7 +3,7 @@ import styles from "../styles/navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { Drawer, Menu } from "antd";
-import { MenuOutlined, VerticalAlignBottomOutlined } from "@ant-design/icons";
+import { MenuOutlined } from "@ant-design/icons";
 import { menuItems } from "../helper/menu";
 
 function Navbar() {
@@ -18,13 +18,13 @@ function Navbar() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.navbar} data-theme="retro">
+      <div className={styles.navbar}>
         <div className={styles.navbar_start}>
           <Link href="/#mainpage">
             <Image
               src="/assets/images/speakiee orange.png"
               height={200}
-              width={250}
+              width={200}
               alt="img not found"
               className={styles.img}
             />
@@ -50,19 +50,19 @@ function Navbar() {
               </a>
               <ul className="p-2 bg-base-100">
                 <li>
-                  <a>Translation</a>
+                  <a href="/findmoreservice">Frontend Developer</a>
                 </li>
                 <li>
-                  <a>Transcretion</a>
+                  <a>Backend developer</a>
                 </li>
                 <li>
-                  <a>content_copywriting</a>
+                  <a>Full stact developer</a>
                 </li>
                 <li>
-                  <a>Cultural consultancy</a>
+                  <a>Mobile App developer</a>
                 </li>
                 <li>
-                  <a>content production</a>
+                  <a>Ios developer</a>
                 </li>
               </ul>
             </li>

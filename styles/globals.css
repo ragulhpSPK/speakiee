@@ -44,9 +44,9 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
   --container-bg-color: #ff4f00;
-  --black-bg-color: rgba(0, 0, 0, 0.905);
-  /* --black2-bg-color: rgba(0, 0, 0, 0.916); */
-  --background-bg-color: #e4c988;
+  --black-bg-color: #6e0e96;
+  /* --black2-bg-color: #5c3566; */
+  --background-bg-color: #5c3566;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -118,4 +118,19 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+@font-face {
+  font-family: speakieebold;
+  src: url(/assets/fonts/SFPRODISPLAYBOLD.ttf);
+}
+
+@font-face {
+  font-family: speakieemedium;
+  src: url(/assets/fonts/SFPRODISPLAYMEDIUM.ttf);
+}
+
+@font-face {
+  font-family: speakieeboldregular;
+  src: url(/assets/fonts/SFPRODISPLAYREGULAR.ttf);
 }

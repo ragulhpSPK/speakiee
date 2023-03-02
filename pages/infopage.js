@@ -13,9 +13,8 @@ function Infopage() {
             })}
           </h1>
         </div>
-        <div className={styles.border}>
-          <span> </span>
-        </div>
+        <span className={styles.border}> </span>
+
         <div className={styles.active}>
           <p>
             {Infopagecontent.map((res) => {
@@ -23,7 +22,6 @@ function Infopage() {
             })}
           </p>
           <span>
-            {" "}
             {Infopagecontent.map((res) => {
               return res.number1;
             })}
@@ -88,7 +86,6 @@ function Infopage() {
             width={300}
             height={300}
             id={styles.img}
-            className="animate__animated animate__fadeIn  animate__slow	2s"
           />
           <span>
             {" "}

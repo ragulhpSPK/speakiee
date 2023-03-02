@@ -37,7 +37,7 @@ function Services() {
               return res.findmore;
             })}
             <br />
-            <a>Translation Services</a>
+            <a href="/findmoreservice">frontend developer</a>
           </p>
         </div>
         <span className={styles.firststyleborder}></span>
@@ -79,7 +79,7 @@ function Services() {
               return res.findmore;
             })}
             <br />
-            <a>Transcreation Services</a>
+            <a>Backend Developer</a>
           </p>
         </div>
       </div>
@@ -92,10 +92,14 @@ function Services() {
               return res.Heading4;
             })}
           </h1>
-          <p>Copywriting services in various languages</p>
-          <p className={styles.findmore}>
+          <p>
             {Servicecontentpage.map((res) => {
               return res.content4;
+            })}
+          </p>
+          <p className={styles.findmore}>
+            {Servicecontentpage.map((res) => {
+              return res.findmore4;
             })}
             <br />
             <a>Content - Copywriting Services</a>
