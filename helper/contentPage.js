@@ -239,3 +239,49 @@ export const Findmorecontentpage = [
       "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
   },
 ];
+
+
+
+export const ProductpageContent = [
+
+{
+id:1,
+heading1:"",
+subHeading1:"",
+content1:"",
+
+},
+
+{
+  id:2,
+  heading2:"",
+  subHeading2:"",
+  content2:"",
+  
+  
+  },
+
+  {
+    id:3,
+    heading3:"",
+    subHeading3:"",
+    content3:"",
+    
+    
+    },
+
+    {
+      id:1,
+      heading1:"",
+      subHeading:"",
+      content:"",
+      
+      
+      }
+
+
+
+
+
+
+]
