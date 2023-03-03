@@ -67,7 +67,7 @@ function Navbar() {
               </ul>
             </li>
             <li>
-              <a>Clients</a>
+              <a href="product">Products</a>
             </li>
             <li>
               <a>join Us / careers</a>
