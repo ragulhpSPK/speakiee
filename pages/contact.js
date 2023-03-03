@@ -40,16 +40,16 @@ function Contact() {
 
   return (
     <div id="contact" className={styles.container}>
-      <div className={styles.image}>
-        <Image
-          src="/assets/images/contact.png"
-          class="animate__animated animate__fadeIn animate__slow	3s"
-          height={800}
-          width={800}
-          alt="no image found"
-        />
-      </div>
       <div className={styles.contact}>
+        <div className={styles.image}>
+          <Image
+            src="/assets/images/contact.png"
+            class="animate__animated animate__fadeIn animate__slow	3s"
+            height={800}
+            width={800}
+            alt="no image found"
+          />
+        </div>
         <form className={styles.formcontroler} onSubmit={handleSubmit}>
           <label for="email">Email</label>
           <input
@@ -99,14 +99,6 @@ function Contact() {
         </form>
       </div>
       <h1>We are presented in</h1>
-      <div className={styles.image}>
-        <Image
-          src="/assets/images/map.png"
-          height={800}
-          width={800}
-          alt="no image found"
-        />
-      </div>
     </div>
   );
 }

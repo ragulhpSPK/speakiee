@@ -85,6 +85,7 @@
 #thirdcontent {
   background-color: #fff;
   border-radius: 5px;
+  color: #000;
 
   /* background-color: rgba(171, 159, 159, 0.245); */
 }
@@ -503,8 +504,122 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .frontend_container {
     font-size: 18px;
+    width: 100vw;
+    min-height: 140vh;
   }
   .frontend_firstpage {
-    min-height: 50vh;
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .frontend_firstpage_content p {
+    width: 40vw;
+    font-size: 18px;
+  }
+
+  .frontend_firstpage_img {
+    margin-top: 15%;
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .second_con_img {
+    width: 500px;
+    height: 400px;
+    margin-top: 10%;
+  }
+  .secondcon_firstcontent {
+    height: 50vh;
+  }
+  .secondcon_firstcontent p {
+    font-size: 18px;
+    width: 40vw;
+    padding-right: 5%;
+  }
+
+  .border {
+    height: 300px;
+    margin-top: 15%;
+  }
+
+  .secondcon_thirdcontent {
+    margin-top: -10%;
+    font-size: 18px;
+    height: 60vh;
+  }
+
+  .third_container {
+    height: 130vh;
+    width: 100vw;
+  }
+
+  .third_container_firstpage {
+    height: 60vh;
+  }
+  .third_container_firstpage p {
+    width: 40vw;
+    font-size: 18px;
+  }
+
+  .third_container_img {
+    margin-top: 15%;
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .third_container_secondpage {
+    height: 65vh;
+    font-size: 18px;
+  }
+
+  .fourth_container {
+    height: 130vh;
+    width: 100vw;
+  }
+  .fourcon_content {
+    width: 100vw;
+  }
+
+  .fourcon_content_para1 p,
+  .fourcon_content_para2 p,
+  .fourcon_content_para3 p,
+  .fourcon_content_para4 p {
+    font-size: 18px;
+    width: 32vw;
+  }
+
+  .fourcon_second_content {
+    height: 30vh;
+    width: 70vw;
+    margin-left: -7%;
+  }
+
+  .fourcon_second_content_para1 h1 {
+    font-size: 22px;
+  }
+
+  .fourcon_second_content_para1 {
+    width: 70vw;
+  }
+
+  .fourcon_second_content_para1 p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .fourcon_img {
+    height: 20vh;
+    width: 30vw;
+    margin-top: 10%;
+    margin-right: 5%;
+  }
+
+  .para2_img2,
+  .para1_img1 {
+    width: 70px;
+  }
+
+  .para2_img2 {
+    margin-top: 50%;
   }
 }

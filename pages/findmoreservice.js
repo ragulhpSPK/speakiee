@@ -269,7 +269,7 @@ function Frontend() {
                 alt="no image to display"
               />
             </div>
-            <p className={styles.para4Modul}>
+            <p>
               {Findmorecontentpage.map((res) => {
                 return res.content15;
               })}

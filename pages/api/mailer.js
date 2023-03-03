@@ -13,10 +13,14 @@ export default function (req, res) {
 
   const mailData = {
     from: req.body.email,
-    html: req.body.name,
     to: "ragulhp27@gmail.com",
-    number: req.body.number,
-    html: req.body.message,
+    html: `<h1>Details of Client</h1> 
+    <ul>
+    <li>Email: ${req.body.email}</li>
+    <li>Name:${req.body.name}</li>
+    <li>Contact number:${req.body.number}</li>
+    <li>Message:${req.body.message}</li>
+    </ul>`,
   };
 
   transporter.sendMail(mailData, (err, info) => {
