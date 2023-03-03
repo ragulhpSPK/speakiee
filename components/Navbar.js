@@ -48,12 +48,12 @@ function Navbar() {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <ul className="p-2 bg-base-100">
+              <ul className="p-2 bg-base-100" id={styles.submiddle}>
                 <li>
                   <a href="/findmoreservice">Frontend Developer</a>
                 </li>
                 <li>
-                  <a>Backend developer</a>
+                  <a href="/findmoreservice/#backend">Backend developer</a>
                 </li>
                 <li>
                   <a>Full stact developer</a>

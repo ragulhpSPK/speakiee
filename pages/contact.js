@@ -43,6 +43,7 @@ function Contact() {
       <div className={styles.image}>
         <Image
           src="/assets/images/contact.png"
+          class="animate__animated animate__fadeIn animate__slow	3s"
           height={800}
           width={800}
           alt="no image found"

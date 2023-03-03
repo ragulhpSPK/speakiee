@@ -5,7 +5,7 @@ import styles from "../styles/findmoreservice.module.css";
 
 function Frontend() {
   return (
-    <div className={styles.frontend_container} id='firstpage'>
+    <div className={styles.frontend_container}>
       <div className={styles.frontend_firstpage}>
         <div className={styles.frontend_firstpage_content}>
           <h1>
@@ -96,7 +96,7 @@ function Frontend() {
         </div>
       </div>
 
-      <div className={styles.second_containr} id='secondpage'>
+      <div className={styles.second_containr} id="backend">
         <div className={styles.secondcon_firstcontent}>
           <div className={styles.second_con_img}>
             <Image

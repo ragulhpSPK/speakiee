@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/services.module.css";
 import Image from "next/image";
 import { Servicecontentpage } from "@/helper/contentPage";
+import Link from "next/link";
 
 function Services() {
   return (
@@ -57,7 +58,6 @@ function Services() {
         <span className={styles.secondstyleborder}></span>
         <div className={styles.secondstylecontent}>
           <h1>
-            {" "}
             {Servicecontentpage.map((res) => {
               return res.Heading3;
             })}
@@ -72,7 +72,7 @@ function Services() {
               return res.findmore;
             })}
             <br />
-            <a>Backend Developer</a>
+            <Link href="findmoreservice/#backend">Backend Developer</Link>
           </p>
         </div>
       </div>
@@ -80,7 +80,6 @@ function Services() {
       <div className={styles.firststyle}>
         <div className={styles.firststylecontent}>
           <h1>
-            {" "}
             {Servicecontentpage.map((res) => {
               return res.Heading4;
             })}

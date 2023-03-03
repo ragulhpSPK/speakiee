@@ -1,6 +1,7 @@
 .container {
   position: relative;
   z-index: 999;
+  color: #fff;
 }
 
 .img {
@@ -9,6 +10,10 @@
 
 #middle {
   margin-left: 20%;
+}
+
+#submiddle {
+  background-color: var(--background-bg-color);
 }
 
 .navbar {
@@ -21,6 +26,7 @@
   background-color: var(--background-bg-color);
   font-family: speakiebold;
   font-size: 25px;
+  transition: 0.88s ease-out;
 }
 #middle li {
   display: inline-block;

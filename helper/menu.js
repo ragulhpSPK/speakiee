@@ -18,13 +18,13 @@ export const menuItems = [
         key: 21,
         label: "Front End Developer",
 
-        link: "/#mainpage",
+        link: "/findmoreservice",
       },
       {
         key: 21,
         label: "Backend developer",
 
-        link: "/#mainpage",
+        link: "/findmoreservice/#backend",
       },
       {
         key: 21,

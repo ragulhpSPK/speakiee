@@ -1,6 +1,7 @@
 .container {
   height: 170vh;
   text-align: center;
+  font-size: 20px;
 }
 
 .container > h1 {
@@ -116,7 +117,7 @@
   }
 
   .border {
-    margin-top: 12%;
+    margin-top: 8%;
   }
 
   .third_content_first,
@@ -128,16 +129,27 @@
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .second_content,
   .third_content {
     width: 100vw;
     min-height: 50vh;
   }
 
+  .second_content {
+    height: 40vh;
+  }
+
+  .second_content p {
+    padding-top: 10%;
+  }
+
+  .container {
+    height: 150vh;
+  }
+
   .second_content_heading {
     width: 40vw;
-    font-size: 25px;
-    padding: 8% 2% 0 0;
+    font-size: 50px;
+    padding: 20% 2% 0 0;
   }
 
   .second_content_info {
@@ -156,142 +168,123 @@
   }
 }
 
-
-@media (min-width:410px)and (max-width:425px) {
-
-
-
-  .container{
-  
-    margin-bottom:30%;
-
+@media (min-width: 410px) and (max-width: 425px) {
+  .container {
+    margin-bottom: 30%;
+    font-size: 15px;
+    height: 150vh;
   }
 
-  .second_content{
-
-height: 20%;  }
-
-
-  .third_content_first{
-    height: 58vh;
+  .second_content {
+    height: 20%;
   }
-  .third_content_second{
-    height: 58vh;
+
+  .second_content p {
+    padding-top: 12%;
+  }
+
+  .third_content_first,
+  .third_content_second {
+    height: 65vh;
   }
 }
 
-@media screen and (min-width:372px)and (max-width:375px) {
-
-
-  .container{
-  
-    margin-bottom:23%;
-
+@media screen and (min-width: 372px) and (max-width: 375px) {
+  .container {
+    margin-bottom: 20%;
   }
 
-  .second_content{
-  
+  .second_content {
     height: 24%;
-  
   }
 
-.third_content_first{
-  height: 58vh;
+  .third_content_first {
+    height: 58vh;
+  }
+  .third_content_second {
+    height: 58vh;
+  }
 }
-.third_content_second{
-  height: 58vh;
-}
- 
+
+@media screen and (min-width: 318px) and (max-width: 320px) {
+  .container {
+    margin-bottom: 45%;
   }
 
-
-  @media screen and (min-width:318px)and (max-width:320px){
-
-
-    .container{
-  
-      margin-bottom:45%;
-    }
-
-    .second_content{
-     height: 22%;
-}
-      .third_content_first{
-        height: 72vh;
-      }
-      .third_content_second{
-        height: 72vh;
-      }
-    }
-
-    @media screen and (min-width:422px)and (max-width:425px){
-
-      .container{
-  
-        margin-bottom:-17%;
-      }
-
-
-
-      .third_content_first{
-        height: 48vh;
-      }
-      .third_content_second{
-        height: 48vh;
-      }
-    
-    }
-    @media screen and (min-width:1022px)and (max-width:1024px){
-.container{
-  margin-bottom: 24.5%;
+  .second_content {
+    height: 22%;
+  }
+  .third_content_first {
+    height: 72vh;
+  }
+  .third_content_second {
+    height: 72vh;
+  }
 }
 
-.second_content{
- 
-  height: 40vh;
+@media screen and (min-width: 422px) and (max-width: 425px) {
+  .container {
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  .third_content_first {
+    height: 48vh;
+  }
+  .third_content_second {
+    height: 48vh;
+  }
+}
+@media screen and (min-width: 1022px) and (max-width: 1024px) {
+  .container {
+    margin-bottom: 24.5%;
+  }
+
+  .second_content {
+    height: 40vh;
+  }
+
+  .second_content_heading {
+    margin-top: -8%;
+  }
+
+  .third_content {
+    margin-top: -3%;
+  }
+  .third_content_first {
+    height: 38vh;
+  }
+  .third_content_second {
+    height: 38vh;
+  }
+  .border {
+    margin-top: 5%;
+  }
 }
 
-.third_content{
-  margin-top: -3%;
-}
-      .third_content_first{
-        height: 38vh;
-      }
-      .third_content_second{
-        height: 38vh;
-      }
-
-    }
-
-
-    @media screen and (min-width:766px)and (max-width:768px){
-
-      .container{
-        margin-bottom: 18.5%;
-      }
-      .third_content{
-        margin-top: -3%;
-      }
-
-    }
-  
-    @media screen and (min-width:1038px)and (max-width:1440px){
-      .container{
-        margin-bottom: 9%;
-      }
-.second_content{
-
-  height: 20%;
-}
-.third_content{
-  margin-top: 2%;
-}
-.third_content_first{
-  height: 37vh;
-}
-.third_content_second{
-  height: 37vh;
+@media screen and (min-width: 766px) and (max-width: 768px) {
+  .container {
+    margin-bottom: 18.5%;
+  }
+  .third_content {
+    margin-top: -3%;
+  }
+  .border {
+    width: 5%;
+  }
 }
 
-    }
-
+@media screen and (min-width: 1038px) and (max-width: 1440px) {
+  .second_content {
+    height: 20%;
+  }
+  .third_content {
+    margin-top: 2%;
+  }
+  .third_content_first {
+    height: 37vh;
+  }
+  .third_content_second {
+    height: 37vh;
+  }
+}
