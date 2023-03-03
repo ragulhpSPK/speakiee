@@ -6,7 +6,6 @@
 .container > h1 {
   font-size: 50px;
   color: var(--container-bg-color);
-  text-decoration: underline var(--black-bg-color);
 }
 
 .first_content {
