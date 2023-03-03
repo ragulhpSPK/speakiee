@@ -54,14 +54,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .content .service,
-  .careers,
-  .contact,
-  .headoffice,
-  .located {
-    border-right: none;
-    border-bottom: 3px solid grey;
-  }
   .copyrights {
     width: 100vw;
   }
