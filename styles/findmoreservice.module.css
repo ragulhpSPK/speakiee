@@ -10,6 +10,7 @@
   width: 80vw;
   margin: auto;
   height: 30vh;
+  color: #000;
 }
 
 .frontend_firstpage_content {
@@ -40,7 +41,7 @@
   display: flex;
   width: 85vw;
   margin: auto;
-  min-height: 35vh;
+  height: 35vh;
   margin-top: 5%;
   margin-right: 5%;
 }
@@ -97,7 +98,7 @@
   border-radius: 5px;
 }
 
-.second_containr {
+.second_container {
   height: 100vh;
   margin-top: 5%;
 }
@@ -117,6 +118,7 @@
   width: 30vw;
   font-size: 20px;
   text-align: justify;
+  color: #000;
 }
 
 .secondcontainer_img {
@@ -153,16 +155,21 @@
 .secondcon_thirdcontent_para1 {
   background-color: rgb(243, 243, 243);
   width: 32vw;
+  color: #000;
+  padding: 5% 0 0 5%;
 }
 
 .secondcon_thirdcontent_para2 {
   background-color: var(--black-bg-color);
   width: 28vw;
+  padding: 3% 0 0 5%;
 }
 
 .secondcon_thirdcontent_para3 {
   background-color: rgb(243, 243, 243);
   width: 32vw;
+  color: #000;
+  padding: 5% 0 0 5%;
 }
 
 .third_container {
@@ -282,14 +289,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .frontend_firstpage,
   .frontend_secondpage,
+  .frontend_firstpage,
   .frontend_thirdpage {
     display: flex;
     flex-direction: column;
-    min-height: 50vh;
-    border-bottom: 3px solid grey;
+    min-height: 55vh;
   }
+
+  .frontend_firstpage {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+  }
+
   .frontend_firstpage_content h1 {
     font-size: 25px;
   }
@@ -306,10 +319,6 @@
     width: 70vw;
   }
 
-  .frontend_firstpage_img {
-    margin-top: 30%;
-  }
-
   .frontend_thirdpage {
     width: 90vw;
   }
@@ -319,6 +328,105 @@
   }
   #thirdimg {
     background-color: #fff;
+  }
+  .frontend_firstpage_img,
+  .frontend_second_img {
+    width: 300px;
+  }
+
+  .second_container {
+    height: 200vh;
+    width: 100vw;
+    font-size: 15px;
+    border-top: 3px solid grey;
+  }
+
+  .second_con_img {
+    width: 300px;
+  }
+
+  .secondcon_firstcontent {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .secondcon_secondContent {
+    height: 90vh;
+  }
+
+  .secondcontainer_img {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 90vh;
+    margin-left: 10%;
+  }
+
+  .secondcon_img1,
+  .secondcon_img2,
+  .secondcon_img3 {
+    width: 80vw;
+  }
+
+  .secondcon_para {
+    width: 90vw;
+    font-size: 15px;
+    padding-right: 5%;
+  }
+
+  .secondcon_thirdcontent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: -45%;
+  }
+
+  .secondcon_thirdcontent_para1,
+  .secondcon_thirdcontent_para2,
+  .secondcon_thirdcontent_para3 {
+    height: 30vh;
+    width: 80vw;
+    font-size: 15px;
+  }
+
+  .third_container {
+    height: 170vh;
+    width: 10vw;
+    border-top: 2px solid grey;
+  }
+  .third_container_firstpage {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .third_container_para {
+    width: 80vw;
+    font-size: 15px;
+    padding: 5%;
+  }
+  .third_container_img {
+    width: 400px;
+  }
+
+  .third_container_secondpage {
+    height: 60vh;
+    width: 100vw;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .third_container_secondpage_para1,
+  .third_container_secondpage_para2,
+  .third_container_secondpage_para3 {
+    font-size: 15px;
+    border: none;
+    height: 30vh;
+    margin-top: 5%;
+    padding: 5%;
   }
 }
 
