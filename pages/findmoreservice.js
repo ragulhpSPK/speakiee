@@ -96,7 +96,7 @@ function Frontend() {
         </div>
       </div>
 
-      <div className={styles.second_containr} id="backend">
+      <div className={styles.second_container} id="backend">
         <div className={styles.secondcon_firstcontent}>
           <div className={styles.second_con_img}>
             <Image
@@ -151,31 +151,31 @@ function Frontend() {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className={styles.secondcon_thirdcontent}>
-          <div className={styles.secondcon_thirdcontent_para1}>
-            <p>
-              {Findmorecontentpage.map((res) => {
-                return res.content6;
-              })}
-            </p>
-          </div>
+      <div className={styles.secondcon_thirdcontent}>
+        <div className={styles.secondcon_thirdcontent_para1}>
+          <p>
+            {Findmorecontentpage.map((res) => {
+              return res.content6;
+            })}
+          </p>
+        </div>
 
-          <div className={styles.secondcon_thirdcontent_para2}>
-            <p>
-              {Findmorecontentpage.map((res) => {
-                return res.content7;
-              })}
-            </p>
-          </div>
+        <div className={styles.secondcon_thirdcontent_para2}>
+          <p>
+            {Findmorecontentpage.map((res) => {
+              return res.content7;
+            })}
+          </p>
+        </div>
 
-          <div className={styles.secondcon_thirdcontent_para3}>
-            <p>
-              {Findmorecontentpage.map((res) => {
-                return res.content8;
-              })}
-            </p>
-          </div>
+        <div className={styles.secondcon_thirdcontent_para3}>
+          <p>
+            {Findmorecontentpage.map((res) => {
+              return res.content8;
+            })}
+          </p>
         </div>
       </div>
 
