@@ -48,7 +48,7 @@ export const menuItems = [
   },
   {
     key: 3,
-    label: "Clients",
+    label: "Product",
 
     link: "/#mainpage",
   },
