@@ -231,13 +231,14 @@ function Frontend() {
       <div className={styles.fourth_container}>
         <div className={styles.fourcon_content}>
           <div className={styles.fourcon_content_para1}>
-          <div className={styles.para1_img1}>
-            <Image
-              src="/assets/images/pngegg.png"
-              width={150}
-              height={200}
-              alt="no image to display"
-            /></div>
+            <div className={styles.para1_img1}>
+              <Image
+                src="/assets/images/pngegg.png"
+                width={150}
+                height={200}
+                alt="no image to display"
+              />
+            </div>
             <p>
               {Findmorecontentpage.map((res) => {
                 return res.content13;
@@ -245,13 +246,14 @@ function Frontend() {
             </p>
           </div>
           <div className={styles.fourcon_content_para2}>
-          <div className={styles.para1_img1}>
-            <Image
-              src="/assets/images/pngegg.png"
-              width={150}
-              height={200}
-              alt="no image to display"
-            /></div>
+            <div className={styles.para1_img1}>
+              <Image
+                src="/assets/images/pngegg.png"
+                width={150}
+                height={200}
+                alt="no image to display"
+              />
+            </div>
             <p>
               {Findmorecontentpage.map((res) => {
                 return res.content14;
@@ -259,13 +261,14 @@ function Frontend() {
             </p>
           </div>
           <div className={styles.fourcon_content_para3}>
-          <div className={styles.para2_img2}>
-            <Image
-              src="/assets/images/pngegg.png"
-              width={150}
-              height={200}
-              alt="no image to display"
-            /></div>
+            <div className={styles.para2_img2}>
+              <Image
+                src="/assets/images/pngegg.png"
+                width={150}
+                height={200}
+                alt="no image to display"
+              />
+            </div>
             <p className={styles.para4Modul}>
               {Findmorecontentpage.map((res) => {
                 return res.content15;
@@ -273,13 +276,14 @@ function Frontend() {
             </p>
           </div>
           <div className={styles.fourcon_content_para4}>
-          <div className={styles.para2_img2}>
-            <Image
-              src="/assets/images/pngegg.png"
-              width={150}
-              height={200}
-              alt="no image to display"
-            /></div>
+            <div className={styles.para2_img2}>
+              <Image
+                src="/assets/images/pngegg.png"
+                width={150}
+                height={200}
+                alt="no image to display"
+              />
+            </div>
             <p>
               {Findmorecontentpage.map((res) => {
                 return res.content16;

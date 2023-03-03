@@ -236,50 +236,40 @@ export const Findmorecontentpage = [
     id: 17,
     Heading17: "IOS Developer",
     content17:
-      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+      "the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to web developers are in high demand.Anyone can learn the technical skills needed to be front-end, back-end, or full-stack.",
   },
 ];
 
-
-
 export const ProductpageContent = [
-
-{
-id:1,
-Heading1:"BizTalk360",
-subHeading1:"More Content",
-content1:"Server operations, monitoring and analytics software. Serverless360",
-
-},
-
-{
-  id:2,
-  Heading2:"Churn360",
-  subHeading2:"More Content",
-  content2:"Server operations, monitoring and analytics software. Serverless360",
-  
-  
+  {
+    id: 1,
+    Heading1: "BizTalk360",
+    subHeading1: "More Content",
+    content1:
+      "Server operations, monitoring and analytics software. Serverless360",
   },
 
   {
-    id:3,
-    Heading3:"Document360",
-    subHeading3:"More Content",
-    content3:"Server operations, monitoring and analytics software. Serverless360",
-    
-    
-    },
+    id: 2,
+    Heading2: "Churn360",
+    subHeading2: "More Content",
+    content2:
+      "Server operations, monitoring and analytics software. Serverless360",
+  },
 
-    {
-      id:4,
-      Heading4:"Serverless360",
-      subHeading4:"More Content",
-      content4:"Server operations, monitoring and analytics software. Serverless360",
-   },
+  {
+    id: 3,
+    Heading3: "Document360",
+    subHeading3: "More Content",
+    content3:
+      "Server operations, monitoring and analytics software. Serverless360",
+  },
 
-
-
-
-
-
+  {
+    id: 4,
+    Heading4: "Serverless360",
+    subHeading4: "More Content",
+    content4:
+      "Server operations, monitoring and analytics software. Serverless360",
+  },
 ];

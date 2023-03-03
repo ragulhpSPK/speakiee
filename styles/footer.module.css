@@ -1,5 +1,5 @@
 .container {
-  min-height: 25vh;
+  min-height: 20vh;
   background-color: var(--background-bg-color);
   position: relative;
   font-family: speakiebold;
@@ -7,7 +7,6 @@
 
 .content {
   display: grid;
-  align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin: 0 10% 0 10%;
   color: white;
@@ -44,7 +43,7 @@
 .copyrights {
   display: flex;
   justify-content: space-around;
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 16px;
   color: #fff;
 }
@@ -69,9 +68,6 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .headoffice {
-    border-right: 3px solid grey;
-  }
   .contact {
     border: none;
   }

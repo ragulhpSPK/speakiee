@@ -127,6 +127,7 @@
   margin: auto;
   justify-content: space-around;
   height: 30vh;
+  margin-top: 5%;
 }
 
 .secondcon_img1 {
@@ -150,6 +151,7 @@
   margin: auto;
   height: 35vh;
   font-size: 20px;
+  margin-top: -10%;
 }
 
 .secondcon_thirdcontent_para1 {
@@ -225,18 +227,13 @@
   display: grid;
   grid-template-columns: repeat(2, 35vw);
   justify-content: center;
-
-
 }
 
 .fourcon_content_para1,
 .fourcon_content_para2,
 .fourcon_content_para3,
-.fourcon_content_para4
- {
+.fourcon_content_para4 {
   height: 70vh;
-
-
 }
 
 .fourcon_content_para1 {
@@ -247,7 +244,6 @@
   margin-top: 5%;
   width: 90%;
   margin-left: 5%;
-
 }
 
 .fourcon_content_para2 {
@@ -258,7 +254,6 @@
   margin-top: 5%;
   width: 90%;
   margin-left: 5%;
-
 }
 
 .fourcon_content_para3 {
@@ -269,7 +264,6 @@
   margin-top: 8%;
   width: 90%;
   margin-left: 5%;
-
 }
 
 .fourcon_content_para4 {
@@ -280,23 +274,16 @@
   margin-top: 8%;
   width: 90%;
   margin-left: 5%;
- 
 }
 
-
-.para1_img1{
-
-margin-top: 5%;
-margin-left: 35%;
+.para1_img1 {
+  margin-top: 5%;
+  margin-left: 35%;
 }
-.para2_img2{
-
+.para2_img2 {
   margin-top: 35%;
   margin-left: 35%;
-  }
-  
-
-
+}
 
 .fourcon_second_content {
   color: black;
@@ -313,8 +300,6 @@ margin-left: 35%;
   position: absolute;
   top: 40%;
   left: 22%;
-
-  
 }
 
 .fourcon_second_content_para1 {
@@ -438,7 +423,7 @@ margin-left: 35%;
 
   .third_container {
     height: 170vh;
-    width: 10vw;
+    width: 100vw;
     border-top: 2px solid grey;
   }
   .third_container_firstpage {
@@ -472,6 +457,47 @@ margin-left: 35%;
     margin-top: 5%;
     padding: 5%;
   }
+
+  .fourth_container {
+    height: 140vh;
+    width: 100vw;
+    border-top: 3px solid grey;
+  }
+  .fourcon_content {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  .fourcon_content_para1,
+  .fourcon_content_para2,
+  .fourcon_content_para3,
+  .fourcon_content_para4 {
+    width: 50vw;
+    font-size: 15px;
+  }
+
+  .fourcon_second_content {
+    height: 20vh;
+    width: 100vw;
+    margin-left: -20%;
+  }
+
+  .fourcon_second_content_para1 h1 {
+    font-size: 22px;
+  }
+  .fourcon_second_content_para1 {
+    font-size: 15px;
+    width: 100vw;
+    padding-right: 5%;
+  }
+  .fourcon_img {
+    display: none;
+  }
+  .para2_img2,
+  .para1_img1 {
+    width: 90px;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -482,9 +508,3 @@ margin-left: 35%;
     min-height: 50vh;
   }
 }
-
-
-
-
-
-
