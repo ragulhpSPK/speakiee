@@ -1,18 +1,9 @@
 import React from "react";
 import styles from "../styles/services.module.css";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import { Servicecontentpage } from "@/helper/contentPage";
 
 function Services() {
-  const [first, setFirst] = useState("");
-
-  useEffect(() => {
-    window.onscroll = () => {
-      console.log(window.pageYOffset);
-    };
-  });
-
   return (
     <div className={styles.container}>
       <h1>
@@ -45,9 +36,10 @@ function Services() {
           <br />
           <Image
             src="/assets/images/translation.png"
-            width={400}
-            height={400}
+            width={200}
+            height={200}
             alt="no image found"
+            className={styles.img}
           />
         </div>
       </div>
@@ -56,9 +48,10 @@ function Services() {
         <div className={styles.secondstyleimage}>
           <Image
             src="/assets/images/transcretion.png"
-            width={400}
-            height={400}
+            width={200}
+            height={200}
             alt="no image found"
+            className={styles.img}
           />
         </div>
         <span className={styles.secondstyleborder}></span>
@@ -109,9 +102,10 @@ function Services() {
         <div className={styles.firststyleimage}>
           <Image
             src="/assets/images/copy.png"
-            width={400}
-            height={400}
+            width={200}
+            height={200}
             alt="no image found"
+            className={styles.img}
           />
         </div>
       </div>
@@ -120,9 +114,10 @@ function Services() {
         <div className={styles.secondstyleimage}>
           <Image
             src="/assets/images/cultural.png"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
             alt="no image found"
+            className={styles.img}
           />
         </div>
         <span className={styles.secondstyleborder}></span>
@@ -173,9 +168,10 @@ function Services() {
         <div className={styles.firststyleimage}>
           <Image
             src="/assets/images/content.png"
-            width={400}
-            height={400}
+            width={200}
+            height={200}
             alt="no image found"
+            className={styles.img}
           />
         </div>
       </div>

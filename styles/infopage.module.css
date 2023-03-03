@@ -94,14 +94,12 @@
   background-color: var(--black-bg-color);
   color: var(--container-bg-color);
   font-size: 50px;
-  border-radius: 5px;
   padding-left: 5%;
 }
 
 .thirdpageseccon {
   min-width: 35vw;
   background-color: var(--container-bg-color);
-  border-radius: 5px;
 }
 
 .thirdpagecon p {
@@ -141,5 +139,38 @@
 
   .thirdpageseccon {
     margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .firstpageinfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .active {
+    margin-top: -25%;
+  }
+  .border {
+    border: none;
+  }
+  .heading {
+    width: 70vw;
+  }
+  .team {
+    margin-top: 8%;
+  }
+
+  .secondborder {
+    border: none;
+  }
+  .secondpageinfo span {
+    font-size: 30px;
+  }
+  .secondpageinfo {
+    display: flex;
+    font-size: 15px;
+  }
+  .container {
+    font-size: 15px;
   }
 }

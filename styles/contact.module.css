@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   min-height: 150vh;
-  font-family: speakieeboldregular
+  font-family: speakieeboldregular;
 }
 
 .contact {
@@ -49,4 +49,13 @@
 .container h1 {
   font-size: 50px;
   margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .formcontroler input {
+    width: 300px;
+  }
+  .formcontroler textarea {
+    width: 300px;
+  }
 }

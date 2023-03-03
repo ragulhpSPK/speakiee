@@ -66,7 +66,7 @@ function Footer() {
               Connect with us
             </li>
             <p>For business enquiries:</p>
-            <p>connect@speakieegroups@gmail.com</p>
+            <p>speakieegroups@gmail.com</p>
           </ul>
         </div>
 
