@@ -8,6 +8,7 @@ function Frontend() {
     <div className={styles.frontend_container}>
       <div className={styles.frontend_firstpage}>
         <div className={styles.frontend_firstpage_content}>
+       
           <h1>
             {Findmorecontentpage.map((res) => {
               return res.Heading1;
@@ -18,7 +19,7 @@ function Frontend() {
               return res.content1;
             })}
           </p>
-        </div>
+     </div>
         <span className={styles.border}></span>
         <div className={styles.frontend_firstpage_img}>
           <Image
