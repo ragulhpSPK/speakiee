@@ -156,4 +156,86 @@ export const Findmorecontentpage = [
     content5:
       "Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.",
   },
+
+  {
+    id: 6,
+    Heading6: "",
+    content6:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+  {
+    id: 7,
+    Heading7: "",
+    content7:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+  {
+    id: 8,
+    Heading8: "",
+    content8:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 9,
+    Heading9: "Full stack developer",
+    content9:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 10,
+    Heading10: "",
+    content10:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 11,
+    Heading11: "",
+    content11:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 12,
+    Heading12: "",
+    content12:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 13,
+    Heading13: "",
+    content13:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 14,
+    Heading14: "",
+    content14:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 15,
+    Heading15: "",
+    content15:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 16,
+    Heading16: "",
+    content16:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
+
+  {
+    id: 17,
+    Heading17: "IOS Developer",
+    content17:
+      "Since the late 80s and 90s, the internet has transformed the way humans access information, and web development has continued to evolve. Its central importance to our digital world means web developers are in high demand. Fortunately, anyone can learn the technical skills needed to be front-end, back-end, or full-stack (both front- and back-end) developers.",
+  },
 ];
