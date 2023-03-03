@@ -211,27 +211,47 @@
   height: 120vh;
   font-size: 20px;
   position: relative;
+  margin-bottom: 12%;
 }
 
 .fourcon_content {
   display: grid;
-  grid-template-columns: repeat(2, 40vw);
+  grid-template-columns: repeat(2, 35vw);
   justify-content: center;
+
+
 }
 
 .fourcon_content_para1,
 .fourcon_content_para2,
 .fourcon_content_para3,
-.fourcon_content_para4 {
-  height: 50vh;
+.fourcon_content_para4
+ {
+  height: 70vh;
+
+
 }
 
 .fourcon_content_para1 {
   background-color: var(--background-bg-color);
 }
 
+.fourcon_content_para1 p {
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
+
+}
+
 .fourcon_content_para2 {
   background-color: var(--container-bg-color);
+}
+
+.fourcon_content_para2 p {
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
+
 }
 
 .fourcon_content_para3 {
@@ -239,7 +259,10 @@
 }
 
 .fourcon_content_para3 p {
-  margin-top: 18%;
+  margin-top: 8%;
+  width: 90%;
+  margin-left: 5%;
+
 }
 
 .fourcon_content_para4 {
@@ -247,23 +270,44 @@
 }
 
 .fourcon_content_para4 p {
-  margin-top: 18%;
+  margin-top: 8%;
+  width: 90%;
+  margin-left: 5%;
+ 
 }
+
+
+.para1_img1{
+
+margin-top: 5%;
+margin-left: 35%;
+}
+.para2_img2{
+
+  margin-top: 35%;
+  margin-left: 35%;
+  }
+  
+
+
 
 .fourcon_second_content {
   color: black;
   display: flex;
-  width: 60vw;
-  margin: auto;
+  width: 55vw;
+  /* margin: auto; */
+  background-color: #fff;
   border-top: 5px solid var(--background-bg-color);
   border-right: 5px solid var(--background-bg-color);
   border-bottom: 5px solid var(--black-bg-color);
   border-left: 5px solid var(--container-bg-color);
-  border-radius: 50%;
-  height: 50vh;
+  border-radius: 200px;
+  height: 45vh;
   position: absolute;
-  top: 12%;
-  left: 20%;
+  top: 40%;
+  left: 22%;
+
+  
 }
 
 .fourcon_second_content_para1 {
@@ -330,3 +374,9 @@
     min-height: 50vh;
   }
 }
+
+
+
+
+
+

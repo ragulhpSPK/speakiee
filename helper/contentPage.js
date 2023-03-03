@@ -246,42 +246,40 @@ export const ProductpageContent = [
 
 {
 id:1,
-heading1:"",
-subHeading1:"",
-content1:"",
+Heading1:"BizTalk360",
+subHeading1:"More Content",
+content1:"Server operations, monitoring and analytics software. Serverless360",
 
 },
 
 {
   id:2,
-  heading2:"",
-  subHeading2:"",
-  content2:"",
+  Heading2:"Churn360",
+  subHeading2:"More Content",
+  content2:"Server operations, monitoring and analytics software. Serverless360",
   
   
   },
 
   {
     id:3,
-    heading3:"",
-    subHeading3:"",
-    content3:"",
+    Heading3:"Document360",
+    subHeading3:"More Content",
+    content3:"Server operations, monitoring and analytics software. Serverless360",
     
     
     },
 
     {
-      id:1,
-      heading1:"",
-      subHeading:"",
-      content:"",
-      
-      
-      }
+      id:4,
+      Heading4:"Serverless360",
+      subHeading4:"More Content",
+      content4:"Server operations, monitoring and analytics software. Serverless360",
+   },
 
 
 
 
 
 
-]
+];
