@@ -23,7 +23,8 @@
 .third_container_para h1,
 .secondcon_para h1 {
   font-size: 50px;
-  color: var(--black-bg-color);
+  /* color: var(--black-bg-color); */
+
 }
 
 .border {
@@ -166,6 +167,7 @@
   background-color: var(--black-bg-color);
   width: 28vw;
   padding: 3% 0 0 5%;
+  color: black;
 }
 
 .secondcon_thirdcontent_para3 {
@@ -818,4 +820,81 @@ margin-top: 40%;
 
   margin-left: -20%;
 }
+}
+
+
+@media (min-width:700px) and (max-width:768px){
+
+
+  .frontend_firstpage_content h1{
+
+
+    font-size:50px ;
+  }
+  .frontend_firstpage_img{
+
+
+    margin-top: -95%;
+    margin-left: 45%;
+  }
+
+  .second_con_img{
+    margin-left: 45%;
+  }
+
+.secondcon_para{
+
+  margin-top: -140%;
+  margin-left: -5%;
+}
+
+
+  .secondcon_thirdcontent{
+    margin-top: -30%;
+  }
+
+  .third_container{
+  height: 100vh;
+  }
+
+  .third_container_firstpage{
+    bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .third_container_para{
+
+    margin-left: -10%;
+  }
+  .third_container_img{
+    margin-top: -110%;
+    margin-left: 50%;
+  }
+  .third_container_secondpage{
+
+    margin-top: -10%;
+    height: 45vh;
+  }
+
+.third_container_secondpage_para1 ,.third_container_secondpage_para2,
+.third_container_secondpage_para3, .third_container_secondpage_para1{
+margin: 0;
+margin-bottom: -20%;
+}
+
+.fourth_container{
+
+  margin-bottom: 15%;
+}
+
+
+.fourcon_content_para1, .fourcon_content_para3{
+  margin-left: -92%;
+}
+.fourcon_content_para1 p,.fourcon_content_para2 p,
+.fourcon_content_para3 p,.fourcon_content_para4 p{
+  width: 85%;
+}
+
+
 }
