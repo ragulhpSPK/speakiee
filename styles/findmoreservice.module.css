@@ -645,14 +645,11 @@
   }
 }
 
-<<<<<<< HEAD
 @media (min-width: 373px) and (max-width: 375px) {
 
 
 }
 
-=======
->>>>>>> 8ada14dc59c01aa8ab2493d3b233761488edc3fe
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .frontend_container {
     font-size: 18px;
@@ -776,14 +773,11 @@
   }
 }
 
-<<<<<<< HEAD
 
-=======
 @media (min-width: 373px) and (max-width: 375px) {
   .fourcon_second_content {
     margin-top: -120%;
   }
->>>>>>> 8ada14dc59c01aa8ab2493d3b233761488edc3fe
 
 
 @media (min-width: 423px) and (max-width: 568px) {
