@@ -542,6 +542,99 @@
   }
 }
 
+@media (min-width: 318px) and (max-width: 375px) {
+  .frontend_firstpage_img {
+    margin-top: -30%;
+    margin-left: -10%;
+  }
+  .frontend_secondpage_content {
+    padding-left: -5%;
+  }
+
+  .frontend_second_img {
+    margin-top: -10%;
+    width: 80%;
+    margin-left: 8%;
+  }
+  .third_container_img {
+    margin: 0;
+    margin-top: -50%;
+    margin-left: -25%;
+  }
+
+  .fourth_container {
+    margin-bottom: 145%;
+    margin-top: 10%;
+  }
+
+  .fourcon_content {
+    margin-top: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .fourcon_content_para1,
+  .fourcon_content_para2,
+  .fourcon_content_para3,
+  .fourcon_content_para4 {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  .second_con_img {
+    margin-left: -10%;
+  }
+
+  .fourcon_second_content {
+    margin-top: -138%;
+    height: 0vh;
+    width: 100vw;
+    margin-left: -25.5%;
+
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: none;
+
+
+  }
+
+  .fourcon_second_content_para1 h1 {
+    font-weight: 600;
+  }
+
+  .para2_img2,
+  .para1_img1 {
+    width: 90px;
+    margin-top: 2%;
+  }
+
+  .third_container_secondpage {
+    height: 93.5vh;
+  
+
+  }
+  .third_container_para{
+
+margin-left: -8%;
+
+
+  }
+}
+
+@media (min-width: 351px) and (max-width: 375px){
+
+  .fourth_container{
+
+   height: 150vh;
+
+
+  }
+}
+
+
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .frontend_container {
     font-size: 18px;
@@ -664,80 +757,6 @@
     margin-top: 50%;
   }
 }
-
-@media (min-width: 318px) and (max-width: 375px) {
-  .frontend_firstpage_img {
-    margin-top: -30%;
-    margin-left: -10%;
-  }
-  .frontend_secondpage_content {
-    padding-left: -5%;
-  }
-
-  .frontend_second_img {
-    margin-top: -10%;
-    width: 80%;
-    margin-left: 8%;
-  }
-  .third_container_img {
-    margin: 0;
-    margin-top: -50%;
-    margin-left: -25%;
-  }
-
-  .fourth_container {
-    margin-bottom: 145%;
-  }
-
-  .fourcon_content {
-    margin-top: 80%;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-  }
-  .fourcon_content_para1,
-  .fourcon_content_para2,
-  .fourcon_content_para3,
-  .fourcon_content_para4 {
-    width: 100vw;
-    height: 40vh;
-  }
-
-  .second_con_img {
-    margin-left: -10%;
-  }
-
-  .fourcon_second_content {
-    margin-top: -150%;
-    height: 20vh;
-    width: 100vw;
-    margin-left: -25.5%;
-
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-    border-radius: 200px;
-  }
-
-  .fourcon_second_content_para1 h1 {
-    font-weight: 600;
-  }
-
-  .para2_img2,
-  .para1_img1 {
-    width: 90px;
-    margin-top: 2%;
-  }
-
-  .third_container_secondpage {
-    height: 87vh;
-  }
-}
-
-
-
-
 
 
 
