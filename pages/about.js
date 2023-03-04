@@ -17,7 +17,7 @@ export default function about() {
           alt="no image found"
           height={400}
           width={800}
-          class="animate__animated animate__flipInY animate__slow	2s"
+          class="animate__animated animate__flipInY animate__slow	2s" 
         />
         <p>
           {Aboutpagecontent.map((res) => {
