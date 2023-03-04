@@ -13,10 +13,10 @@ export default function about() {
       </h1>
       <div className={styles.first_content}>
         <Image
-          src="/assets/images/about.png"
+          src="/assets/images/about-us-bnr.png"
           alt="no image found"
           height={400}
-          width={800}
+          width={900}
           class="animate__animated animate__flipInY animate__slow	2s" 
         />
         <p>
