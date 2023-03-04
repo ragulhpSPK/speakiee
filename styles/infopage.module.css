@@ -12,7 +12,8 @@
 .firstpageinfo {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  background-color: var(--background-bg-color);
+  /* background-color: var(--background-bg-color); */
+  background-color: var(--black-bg-color);
   min-height: 25%;
   text-align: center;
   width: 70vw;
@@ -21,15 +22,15 @@
 }
 
 .heading h1 {
-  font-size: 32px;
-  padding: 18%;
+  font-size: 38px;
+  padding: 15%;
   color: var(--container-bg-color);
   font-weight: 600;
 }
 
 .border {
   border-left: 5px solid var(--container-bg-color);
-  height: 60%;
+  height: 70%;
   margin: 10%;
 }
 
@@ -92,7 +93,8 @@
 .thirdpagecon {
   min-width: 35vw;
   background-color: var(--black-bg-color);
-  color: var(--container-bg-color);
+  /* color: var(--background-bg-color); */
+  color: black;
   font-size: 50px;
   padding-left: 5%;
 }
@@ -109,12 +111,14 @@
 .thirdpageseccon p {
   font-size: 20px;
   padding: 15px;
+  color: white;
 }
 
 .thirdpageseccon span {
   font-size: 100px;
-  color: rgba(0, 0, 0, 0.916);
+  /* color: rgba(0, 0, 0, 0.916); */
   padding-left: 15px;
+  color: white;
 }
 
 #img {
@@ -126,7 +130,7 @@
   transition: 2s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 564px) {
   .border {
     border-left: none;
     border-bottom: 5px solid var(--container-bg-color);
