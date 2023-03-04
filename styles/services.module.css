@@ -95,7 +95,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100vw;
-    height: 70vh;
+    height: 50vh;
     margin-top: 12%;
   }
 
@@ -121,7 +121,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 80vw;
-    height: 70vh;
+    height: 50vh;
     margin-top: 12%;
   }
   .secondstyle h1 {

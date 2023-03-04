@@ -30,19 +30,19 @@ export const menuItems = [
         key: 21,
         label: "Full stact developer",
 
-        link: "/#mainpage",
+        link: "/findmoreservice/#thirdcontainer",
       },
-      {
-        key: 21,
-        label: "Mobile App developer",
+      // {
+      //   key: 21,
+      //   label: "Mobile App developer",
 
-        link: "/#mainpage",
-      },
+      //   link: "/#mainpage",
+      // },
       {
         key: 21,
         label: "Ios developer",
 
-        link: "/#mainpage",
+        link: "/findmoreservice/#fourthcontainer",
       },
     ],
   },

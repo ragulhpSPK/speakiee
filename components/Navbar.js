@@ -56,13 +56,15 @@ function Navbar() {
                   <a href="/findmoreservice/#backend">Backend developer</a>
                 </li>
                 <li>
-                  <a>Full stact developer</a>
+                  <a href="/findmoreservice/#thirdcontainer">
+                    Full stact developer
+                  </a>
                 </li>
-                <li>
+                {/* <li>
                   <a>Mobile App developer</a>
-                </li>
+                </li> */}
                 <li>
-                  <a>Ios developer</a>
+                  <a href="/findmoreservice/#fourthcontainer">Ios developer</a>
                 </li>
               </ul>
             </li>

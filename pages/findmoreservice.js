@@ -43,7 +43,7 @@ function Frontend() {
           />
         </div>
 
-        <div className={styles.frontend_secondpage_content}>
+        <div className={styles.frontend_secondpage_content} id={styles.content}>
           <p>
             {Findmorecontentpage.map((res) => {
               return res.content2;
@@ -180,7 +180,7 @@ function Frontend() {
         </div>
       </div>
 
-      <div className={styles.third_container}>
+      <div className={styles.third_container} id='thirdcontainer'>
         <div className={styles.third_container_firstpage}>
           <div className={styles.third_container_para}>
             <h1>
@@ -229,7 +229,7 @@ function Frontend() {
         </div>
       </div>
 
-      <div className={styles.fourth_container}>
+      <div className={styles.fourth_container} id='fourthcontainer'>
         <div className={styles.fourcon_content}>
           <div className={styles.fourcon_content_para1}>
             <div className={styles.para1_img1}>

@@ -40,7 +40,7 @@ function Contact() {
 
   return (
     <div id="contact" className={styles.container}>
-      <div className={styles.contact}>
+      <div className={styles.subcontainer}>
         <div className={styles.image}>
           <Image
             src="/assets/images/contact.png"
@@ -50,55 +50,65 @@ function Contact() {
             alt="no image found"
           />
         </div>
-        <form className={styles.formcontroler} onSubmit={handleSubmit}>
-          <label for="email">Email</label>
-          <input
-            type="email"
-            value={values.email}
-            id="email"
-            placeholder="Enter Email"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          />
-          {errors.email && touched.email && <p>{errors.email}</p>}
+        <div className={styles.contact}>
+          <form className={styles.formcontroler} onSubmit={handleSubmit}>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              value={values.email}
+              id="email"
+              placeholder="Enter Email"
+              onChange={handleChange}
+              onBlur={handleBlur}
+            />
+            {errors.email && touched.email && <p>{errors.email}</p>}
 
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            placeholder="Enter Name"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          />
-          {errors.name && touched.name && <p>{errors.name}</p>}
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Name"
+              onChange={handleChange}
+              onBlur={handleBlur}
+            />
+            {errors.name && touched.name && <p>{errors.name}</p>}
 
-          <label for="number">Number</label>
-          <input
-            type="number"
-            id="number"
-            placeholder="Enter Phone Number"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          />
-          {errors.number && touched.number && <p>{errors.number}</p>}
+            <label for="number">Number</label>
+            <input
+              type="number"
+              id="number"
+              placeholder="Enter Phone Number"
+              onChange={handleChange}
+              onBlur={handleBlur}
+            />
+            {errors.number && touched.number && <p>{errors.number}</p>}
 
-          <label for="message">Message</label>
-          <textarea
-            rows="4"
-            id="message"
-            cols="50"
-            placeholder="Message"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          />
-          {errors.message && touched.message && <p>{errors.message}</p>}
-          <button className={styles.btn} type="submit">
-            Submit
-          </button>
-          {!errors ? <div>submitted</div> : ""}
-        </form>
+            <label for="message">Message</label>
+            <textarea
+              rows="4"
+              id="message"
+              cols="50"
+              placeholder="Message"
+              onChange={handleChange}
+              onBlur={handleBlur}
+            />
+            {errors.message && touched.message && <p>{errors.message}</p>}
+            <button className={styles.btn} type="submit">
+              Submit
+            </button>
+            {!errors ? <div>submitted</div> : ""}
+          </form>
+        </div>
       </div>
+
       <h1>We are presented in</h1>
+      <Image
+        src="/assets/images/map.png"
+        class="animate__animated animate__fadeIn animate__slow	3s"
+        height={800}
+        width={800}
+        alt="no image found"
+      />
     </div>
   );
 }
