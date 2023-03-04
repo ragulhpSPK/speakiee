@@ -4,14 +4,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .subcontainer {
   display: flex;
+
 }
 
 .contact {
   min-height: 40vh;
+
 }
 
 .formcontroler {
@@ -88,4 +91,16 @@
     width: 50%;
     margin-top: 25%;
   }
+}
+
+
+
+@media (min-width:3758px) and (max-width:390px) {
+
+  .subcontainer{
+
+  background-color: aliceblue;
+  padding-left: 3%;
+  }
+  
 }

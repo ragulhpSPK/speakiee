@@ -41,7 +41,7 @@
   width: 0;
   height: 2px;
   background: var(--container-bg-color);
-  transition: width 0.1s;
+  transition: width 0.50s;
 }
 
 #middle li:hover::after {
