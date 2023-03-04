@@ -456,8 +456,8 @@
   .secondcon_thirdcontent {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    margin-top: -45%;
+    height: 80vh;
+    margin-top: 100%;
   }
 
   .secondcon_thirdcontent_para1,
@@ -602,8 +602,6 @@
     border-bottom: none;
     border-left: none;
     border-radius: none;
-
-
   }
 
   .fourcon_second_content_para1 h1 {
@@ -618,28 +616,17 @@
 
   .third_container_secondpage {
     height: 93.5vh;
-  
-
   }
-  .third_container_para{
-
-margin-left: -8%;
-
-
+  .third_container_para {
+    margin-left: -8%;
   }
 }
 
-@media (min-width: 351px) and (max-width: 375px){
-
-  .fourth_container{
-
-   height: 150vh;
-
-
+@media (min-width: 351px) and (max-width: 375px) {
+  .fourth_container {
+    height: 150vh;
   }
 }
-
-
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .frontend_container {
@@ -763,7 +750,6 @@ margin-left: -8%;
     margin-top: 50%;
   }
 }
-
 
 @media (min-width: 373px) and (max-width: 375px) {
   .fourcon_second_content {

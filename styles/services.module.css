@@ -7,6 +7,20 @@
   font-family: speakieeboldregular;
 }
 
+.animate {
+  transform: translateX(100%);
+  animation: my-animation 15s linear infinite;
+}
+
+@keyframes my-animation {
+  from {
+    -webkit-transform: translateX(20%);
+  }
+  to {
+    -webkit-transform: translateX(-20%);
+  }
+}
+
 .container > h1 {
   text-align: center;
   font-size: 50px;
@@ -24,6 +38,17 @@
 
 .img {
   width: 350px;
+  transition: 1s ease-out;
+  animation: mymove 1s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes mymove {
+  0% {
+    -webkit-transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+  }
 }
 
 .secondstyle {
@@ -47,6 +72,7 @@
 .firststyle h1 {
   font-size: 50px;
   padding-left: 5%;
+  font-weight: 600;
 }
 
 .firststylecontent p {
@@ -61,11 +87,13 @@
 }
 
 .secondstyle {
-  background-color: var(--background-bg-color);
+  /* background-color: var(--background-bg-color); */
+  background-color: var(--black-bg-color);
 }
 
 .secondstyle h1 {
   font-size: 50px;
+  font-weight: 600;
 }
 
 .secondstylecontent p {

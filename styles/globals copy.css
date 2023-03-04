@@ -45,15 +45,9 @@
   --card-border-rgb: 131, 134, 135;
   --container-bg-color: #ff4f00;
   /* --black-bg-color: #6e0e96; */
-  --black-bg-color: rgb(235, 235, 235);
+  --black-bg-color:rgb(235, 235, 235);
   /* --black2-bg-color: #5c3566; */
-  --background-bg-color: #6a0d80;
-
-  --background-color: linear-gradient(
-    90deg,
-    rgba(241, 159, 118, 0.9948354341736695) 68%,
-    rgba(244, 105, 50, 0.8827906162464986) 97%
-  );
+  --background-bg-color: #5c3566;
 }
 
 @media (prefers-color-scheme: dark) {

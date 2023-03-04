@@ -84,7 +84,7 @@ export const Servicecontentpage = [
   },
   {
     id: 4,
-    Heading4: "Full stact developer",
+    Heading4: "Full stack developer",
     content4: "Copywriting services in various languages",
     findmore4: "Find out more about our",
   },

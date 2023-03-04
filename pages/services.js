@@ -14,7 +14,7 @@ function Services() {
       </h1>
       <div className={styles.firststyle}>
         <div className={styles.firststylecontent}>
-          <h1>
+          <h1 className={styles.animate}>
             {Servicecontentpage.map((res) => {
               return res.Heading2;
             })}
@@ -57,7 +57,7 @@ function Services() {
         </div>
         <span className={styles.secondstyleborder}></span>
         <div className={styles.secondstylecontent}>
-          <h1>
+          <h1 className={styles.animate}>
             {Servicecontentpage.map((res) => {
               return res.Heading3;
             })}
@@ -79,7 +79,7 @@ function Services() {
 
       <div className={styles.firststyle}>
         <div className={styles.firststylecontent}>
-          <h1>
+          <h1 className={styles.animate}>
             {Servicecontentpage.map((res) => {
               return res.Heading4;
             })}
@@ -121,7 +121,7 @@ function Services() {
         </div>
         <span className={styles.secondstyleborder}></span>
         <div className={styles.secondstylecontent}>
-          <h1>
+          <h1 className={styles.animate}>
             {Servicecontentpage.map((res) => {
               return res.Heading5;
             })}
@@ -144,8 +144,7 @@ function Services() {
 
       <div className={styles.firststyle}>
         <div className={styles.firststylecontent}>
-          <h1>
-            {" "}
+          <h1 className={styles.animate}>
             {Servicecontentpage.map((res) => {
               return res.Heading6;
             })}

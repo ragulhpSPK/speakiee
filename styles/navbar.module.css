@@ -13,7 +13,8 @@
 }
 
 #submiddle {
-  background-color: var(--background-bg-color);
+  /* background-color: var(--background-bg-color); */
+  background-color: var(--black-bg-color);
 }
 
 .navbar {
@@ -23,10 +24,12 @@
   justify-content: center;
   gap: 10px;
   height: 10vh;
-  background-color: var(--background-bg-color);
+  /* background-color: var(--background-bg-color); */
+  background-color: var(--black-bg-color);
   font-family: speakiebold;
   font-size: 25px;
   transition: 0.88s ease-out;
+  color: black;
 }
 #middle li {
   display: inline-block;
@@ -41,7 +44,7 @@
   width: 0;
   height: 2px;
   background: var(--container-bg-color);
-  transition: width 0.50s;
+  transition: width 0.5s;
 }
 
 #middle li:hover::after {
