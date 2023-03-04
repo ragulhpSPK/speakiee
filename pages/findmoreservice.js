@@ -9,7 +9,7 @@ function Frontend() {
       <div className={styles.frontend_firstpage}>
         <div className={styles.frontend_firstpage_content}>
        
-          <h1>
+          <h1 className={styles.animation}>
             {Findmorecontentpage.map((res) => {
               return res.Heading1;
             })}
