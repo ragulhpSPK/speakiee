@@ -35,13 +35,11 @@ function Infopage() {
         </div>
         <div className={styles.service}>
           <p>
-            {" "}
             {Infopagecontent.map((res) => {
               return res.content2;
             })}
           </p>
           <span>
-            {" "}
             {Infopagecontent.map((res) => {
               return res.number2;
             })}
@@ -55,6 +53,8 @@ function Infopage() {
         <div className={styles.team}>
           <p>
             {Infopagecontent.map((res) => {
+
+
               return res.content3;
             })}
           </p>

@@ -13,6 +13,8 @@
   color: #000;
 }
 
+
+
 .frontend_firstpage_content {
   width: 50vw;
   font-size: 20px;
@@ -339,8 +341,8 @@
   /* margin: auto; */
   background-color: #fff;
   border-top: 5px solid var(--background-bg-color);
-  border-right: 5px solid var(--background-bg-color);
-  border-bottom: 5px solid var(--black-bg-color);
+  border-right: 5px solid var(--container-bg-color);
+  border-bottom: 5px solid var(--background-bg-color);
   border-left: 5px solid var(--container-bg-color);
   border-radius: 200px;
   height: 45vh;
@@ -634,7 +636,6 @@
     margin-left: -5.5%;
   }
 
-
   .fourcon_second_content {
     margin-top: -120%;
   }
@@ -646,8 +647,6 @@
 }
 
 @media (min-width: 373px) and (max-width: 375px) {
-
-
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -773,12 +772,11 @@
   }
 }
 
-
 @media (min-width: 373px) and (max-width: 375px) {
   .fourcon_second_content {
     margin-top: -120%;
   }
-
+}
 
 @media (min-width: 423px) and (max-width: 568px) {
   .frontend_firstpage_img {

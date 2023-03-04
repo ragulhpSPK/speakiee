@@ -113,8 +113,8 @@ function Services() {
         <div className={styles.secondstyleimage}>
           <Image
             src="/assets/images/cultural.png"
-            width={200}
-            height={200}
+            width={50}
+            height={50}
             alt="no image found"
             className={styles.img}
           />
@@ -127,7 +127,6 @@ function Services() {
             })}
           </h1>
           <p>
-            {" "}
             {Servicecontentpage.map((res) => {
               return res.content5;
             })}
